@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Unicode Transformation Format uses for understanding cyrillic and latin by browser-->
+    <title>VR SPACE</title>
+    <!--title it`s name,m which will be in tab-->
+
+    <!--link stylesheets or fonts-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--header-->
+    <header>
+        <!--make header-container for create margins in styles-->
+        <div class="header-content">
+            <!--use container for logo img, because img-tag is inline element-->
+            <div class="logo">
+                <img src="images/logo.PNG" alt="logo">
+            </div>
+            <nav>
+                <!--main navigation, it has higher priority then other nav lists, because it locates into nav tag-->
+                <ul class="nav-list-desktop">
+                    <li><a href="#">Игры</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Забронировать</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <ul class="nav-list-mobile">
+                    <li class="close-menu">X</li>
+                    <li><a href="#">Игры</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Забронировать</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" name="search" placeholder="Поиск">
+            </div>
+            <div class="open-menu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </header>
+<!--end header-->
+<!--main content-->
+    <div class="full-wrapper">
+        <!--create containers for each sections(we can use section tag, but not recommend for this block)-->
+        <div class="first">
+            <!--chunk this block for easier using flex-box into .first container-->
+            <div class="top">
+                <h3>Погрузись в мир виртуальной реальности</h3>
+            </div>
+            <div class="middle">
+                <h1>VR</h1>
+                <h1>SPACE</h1>
+            </div>
+            <div class="bottom">
+                <!--link into div tag for easier stylise it-->
+                <div class="want">
+                    <a href="#">ХОЧУ ПОПРОБОВАТЬ</a>
+                </div>
+            </div>
+        </div>
+        <div class="what-is-it second">
+            <h2>ЧТО ТАКОЕ ВИРТУАЛЬНАЯ РЕАЛЬНОСТЬ?</h2>
+            <div class="container">
+                <p>Виртуальная реальность – это технология, которая позволяет создать очень реалистичный цифровой мир и
+                    перенести вас в него. Максимальное погружение достигается благодаря тому, что вы можете как
+                    воздействовать на виртуальное окружение, так и получать ответную реакцию. </p>
+                <h2>ПОЧЕМУ ЛЮДИ ВЫБИРАЮТ НАС?</h2>
+                <!--benefits container-->
+                <div class="benefits">
+                    <div class="item">
+                        <div class="caption">
+                            <img src="images/game.PNG" alt="">
+                        </div>
+                        <div class="description">
+                            <p>Можно совмещать развлечение и пользу проводите время весело - и одновременно учитесь чему- то новому.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="caption">
+                            <img src="images/choice.PNG" alt="">
+                        </div>
+                        <div class="description">
+                            <p>Большой выбор игр разных жанров выбирайте, экспериментируйте, побеждайте!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="caption">
+                            <img src="images/lock.PNG" alt="">
+                        </div>
+                        <div class="description">
+                            <p>У нас нет прохожих. В клуб можно попасть только по паролю (узнать его можно оставив заявку)</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="caption">
+                            <img src="images/community.png" alt="">
+                        </div>
+                        <div class="description">
+                            <p>Можно играть одному, вдвоем, компанией или командами вы можете выбрать любой формат игры.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end benefits container-->
+                <h2>ГАДЖЕТЫ ДЛЯ ПОГРУЖЕНИЯ В VR</h2>
+                <!--gadgets container-->
+                <div class="gadgets">
+                    <p>Процесс погружения очень простой. Надеваешь шлем, берешь в руки контроллеры – и вот ты уже не в
+                        игровом клубе, а в где-то в постапокалиcтическом мире уничтожаешь зомби в vr-аттракционе.</p>
+                    <p>Очки дают картинку HD-качества с разрешением 1200х1080 пикселей на каждый глаз, поэтому ты
+                        действительно ощущаешь себя героем игры.</p>
+                    <div class="pictures">
+                        <img src="images/women.png" alt="">
+                        <img src="images/men.PNG" alt="">
+                    </div>
+                </div>
+                <!--end gadgets container-->
+                <h2>НАШИ ИГРЫ</h2>
+                <!--gallery of games-->
+                <div class="game-gallery-desktop">
+                    <div class="item">
+                        <img src="images/gallery1.PNG" alt="" draggable="true" class="gallery__img">
+                    </div>
+                    <div class="item">
+                        <img src="images/gallery2.PNG" alt="" draggable="true" class="gallery__img">
+                    </div>
+                    <div class="item">
+                        <img src="images/gallery3.PNG" alt="" draggable="true" class="gallery__img">
+                    </div>
+                    <div class="item">
+                        <img src="images/gallery4.PNG" alt="" draggable="true" class="gallery__img">
+                    </div>
+                    <div class="item">
+                        <img src="images/gallery5.PNG" alt="" draggable="true" class="gallery__img">
+                    </div>
+                    <div class="item">
+                        <img src="images/gallery6.PNG" alt="" draggable="true" class="gallery__img">
+                        <img src="images/gallery7.PNG" alt="" draggable="true" class="gallery__img">
+                    </div>
+                    <div class="item">
+                        <img src="images/gallery8.PNG" alt="" draggable="true" class="gallery__img">
+                    </div>
+                </div>
+                <div class="game-gallery-mobile">
+                    <div class="item">
+                        <img src="images/gallery1.PNG" alt="" draggable="true" class="gallery__img">
+                    </div>
+                    <div class="item">
+                        <img src="images/gallery2.PNG" alt="" draggable="true" class="gallery__img">
+                    </div>
+                    <div class="show-more">БОЛЬШЕ</div>
+                    <div class="overlay">
+                        <div class="more-games">
+                            <h2>Узнайте больше</h2>
+                            <div class="close">X</div>
+                            <div class="item">
+                                <img src="images/gallery1.PNG" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/gallery2.PNG" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/gallery3.PNG" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/gallery4.PNG" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/gallery5.PNG" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/gallery6.PNG" alt="">
+                                <img src="images/gallery7.PNG" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/gallery8.PNG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end gallery of games-->
+                <div class="want">
+                    <a href="#">ХОЧУ ПОПРОБОВАТЬ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--end main content-->
+<!--footer-->
+    <footer>
+        <div class="footer-container">
+            <div class="contacts">
+                <h3>Наше местоположение: ул. Полевая 129А </h3>
+                <h3>Наши контакты: +38(066)-14-88-420</h3>
+            </div>
+            <div class="social">
+                <h3>Наши соц.сети:</h3>
+                <h3><a href="https://facebook.com">facebook.com/vr</a></h3>
+                <h3><a href="https://instagram.com">instagram.com/vr</a></h3>
+            </div>
+        </div>
+    </footer>
+<!--end footer-->
+<script src="js/main.js"></script>
+</body>
+</html>
